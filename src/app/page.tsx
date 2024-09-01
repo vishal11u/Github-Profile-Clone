@@ -5,12 +5,46 @@ import ContentColumn from "../components/ContentColumn";
 
 const Home: React.FC = () => {
   const repositories = [
-    { name: "March", language: "Java" },
-    { name: "javafullstack", owner: "Omkar10feb", language: "Java" },
-    { name: "Corejava", owner: "Omkar10feb", language: "Java" },
-    { name: "Omkar10Feb", language: undefined },
-    { name: "Core-Java", language: undefined },
-    { name: "spring6april", language: undefined },
+    {
+      name: "CoreJava",
+      owner: "Vishal10feb",
+      language: "Java",
+    },
+    {
+      name: "ProjectManagementTool",
+      owner: "Vishal10feb",
+      language: "TypeScript",
+    },
+    {
+      name: "Core-Java-Advanced",
+      owner: "Vishal10feb",
+      language: "Java",
+    },
+    {
+      name: "SpringBootApp",
+      owner: "Vishal10feb",
+      language: "Java",
+    },
+    {
+      name: "ReactDashboard",
+      owner: "Vishal10feb",
+      language: "JavaScript",
+    },
+    {
+      name: "DevOpsPipeline",
+      owner: "Vishal10feb",
+      language: "Python",
+    },
+    {
+      name: "FrontendMentor",
+      owner: "Vishal10feb",
+      language: "HTML/CSS",
+    },
+    {
+      name: "DataStructures",
+      owner: "Vishal10feb",
+      language: "C++",
+    },
   ];
 
   const value = [
@@ -34,13 +68,16 @@ const Home: React.FC = () => {
   const contributions = value;
 
   const achievements = [
-    { name: "Block or Report", icon: "https://camo.githubusercontent.com/d676af72b3a82eb1ca5dc96a77f0f82ddec61d4c9a55fdf373996e195ba362fb/68747470733a2f2f6769746875622e6769746875626173736574732e636f6d2f696d616765732f6d6f64756c65732f70726f66696c652f616368696576656d656e74732f717569636b647261772d64656661756c742e706e67" },
+    {
+      name: "Block or Report",
+      icon: "https://camo.githubusercontent.com/d676af72b3a82eb1ca5dc96a77f0f82ddec61d4c9a55fdf373996e195ba362fb/68747470733a2f2f6769746875622e6769746875626173736574732e636f6d2f696d616765732f6d6f64756c65732f70726f66696c652f616368696576656d656e74732f717569636b647261772d64656661756c742e706e67",
+    },
   ];
 
   return (
     <Layout>
       <ProfileColumn
-        username="OmkarSK01"
+        username="VishalRS01"
         followers={3}
         following={9}
         achievements={achievements}

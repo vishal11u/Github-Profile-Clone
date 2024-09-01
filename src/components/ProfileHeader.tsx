@@ -13,7 +13,7 @@ const ProfileHeader: React.FC<ProfileHeaderProps> = ({
   following,
 }) => {
   return (
-    <div className="flex items-center flex-col w-[85%] pb-8 border-b border-gray-600 ">
+    <div className="flex items-center flex-col pb-8 border-b border-gray-600 ">
       <div className="w-h-80 h-80 bg-gray-700 rounded-full mr-4 overflow-hidden">
         <img
           src="https://avatars.githubusercontent.com/u/136974299?v=4"

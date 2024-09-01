@@ -16,7 +16,7 @@ const ProfileColumn: React.FC<ProfileColumnProps> = ({
   achievements,
 }) => {
   return (
-    <div className="w-full md:w-1/3">
+    <div className="w-full md:w-1/3 ">
       <ProfileHeader
         username={username}
         followers={followers}

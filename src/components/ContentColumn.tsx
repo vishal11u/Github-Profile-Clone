@@ -12,7 +12,7 @@ const ContentColumn: React.FC<ContentColumnProps> = ({
   contributions,
 }) => {
   return (
-    <div className="w-full md:w-2/3">
+    <div className="w-full md:w-2/2">
       <RepositoryList repositories={repositories} />
       <ContributionGraph contributions={contributions} />
     </div>
