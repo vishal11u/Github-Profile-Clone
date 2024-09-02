@@ -1,6 +1,6 @@
 // src/components/Layout.tsx
 import React, { ReactNode } from 'react';
-import NavBar from './Navbar';
+import NavBar from './NavBar';
 
 interface LayoutProps {
   children: ReactNode;
