@@ -16,8 +16,8 @@ const ProfileHeader: React.FC<ProfileHeaderProps> = ({
     <div className="flex items-center flex-col pb-8 border-b border-gray-600 ">
       <div className="w-h-80 h-80 bg-gray-700 rounded-full mr-4 overflow-hidden">
         <img
-          src="https://avatars.githubusercontent.com/u/136974299?v=4"
-          alt="image"
+          src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTYP-KKtRJXm9qK7k2_PA1utxbxWdpzGIdulQ&s"
+          alt="profile-image"
           className="h-full w-full"
         />
       </div>
@@ -27,8 +27,11 @@ const ProfileHeader: React.FC<ProfileHeaderProps> = ({
           Follow
         </button>
         <div className="mt-3 text-sm flex items-center gap-x-1 text-gray-400">
-          <span className="flex items-center gap-x-1"><GoPeople color="white"/>{followers} followers</span> ·{" "}
-          <span>{following} following</span>
+          <span className="flex items-center gap-x-1">
+            <GoPeople color="white" />
+            {followers} followers
+          </span>{" "}
+          · <span>{following} following</span>
         </div>
       </div>
     </div>

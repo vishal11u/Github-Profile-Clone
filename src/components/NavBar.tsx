@@ -10,7 +10,7 @@ const NavBar: React.FC = () => {
           <li className="mr-4">
             <a
               href="#"
-              className="flex items-center text-white text-[12px] font-semibold border-b-2 border-orange-500 h-full"
+              className="flex items-center text-white border-b-2 border-orange-500 h-full"
             >
               <GoBook className="mr-2" />
               Overview

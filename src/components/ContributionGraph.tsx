@@ -1,4 +1,4 @@
-"use client"
+"use client";
 import React, { useState } from "react";
 import HeatMap from "@uiw/react-heat-map";
 import Tooltip from "@uiw/react-tooltip";
@@ -40,7 +40,7 @@ const ContributionGraph: React.FC<ContributionGraphProps> = ({
               color: "white",
               padding: "10px 20px",
             }}
-            rectSize={11}
+            rectSize={10.8}
             weekLabels={["Sun", "Mon", "Tue", "Wed", "Thu", "Fri", "Sat"]}
             startDate={new Date(`${selectedYear}/01/01`)}
             endDate={new Date(`${selectedYear}/12/31`)}
@@ -59,7 +59,7 @@ const ContributionGraph: React.FC<ContributionGraphProps> = ({
               "Nov",
               "Dec",
             ]}
-            legendCellSize={11}
+            legendCellSize={10.8}
             legendRender={(props) => <rect {...props} rx={2} />}
             rectProps={{ rx: 2.5 }}
             rectRender={(props, data) => (
